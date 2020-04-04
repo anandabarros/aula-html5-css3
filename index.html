@@ -7,11 +7,11 @@
 
     <body> 
         <p>Isolados da quarentena enterprise</p>
-        <nave> <!--Cria menu de navegação-->
-            <ul> <!--Tag permite inserir lista de intens-->
-                <li>Serviços</li> <!--Tag define item da lista-->
-                <li>Clientes</li>
-                <li>Parceiros</li>
+        <nave> 
+            <ul> 
+                <li><a href = "#serviços"> Serviços</a></li> <!--Tag(<a>) cria hiper link e(href ="# ") atribui o local-->
+                <li><a href = "#clientes">Clientes</a></li>
+                <li><a href = "#parceiros">Parceiros</a></li>
                 <li>Time</li>
                 <li>Contato</li>
             </ul> 
@@ -23,16 +23,37 @@
                  site e apps</h2>
          </header>
 
-         <section id = "seviços"> <!--Tag separa seções de conteúdos e id pra identificar a seção-->
+         <section id = "serviços"> 
             <h2>SERVIÇOS</h2>
             <p>Oferecemos distrações para não enlouquecer na quarentena.</p>
-            <img src = "img/music.jpg" width = "300px"> <!--src add imagem da pasta criada(nome da pasta/nome do arquivo.jpg) 
-                                                        e width redimensiona o tamanha da imagem -->
+            <div> <!--Cria ima divisão para deixar o código mais organizado-->
+                <img src = "img/music.jpg" width = "300px"> 
+            </div>
+            <div>
+                <img src = "img/games.jpg" width = "300px">
+            </div>
         </section>
 
          <section id = "clientes">
              <h2>CLIENTES</h2>
              <p>Nossos cliente ficaram muito satisfeitos como nossos serviços.</p>
+             <div>
+                 <img src = "img/client1.jpg" width = "300px"> 
+             </div>
+             <div>
+                 <img src = "img/client2.jpg" width = "300px">
+             </div>
+         </section>
+
+         <section id = "parceiros">
+            <h2>PARCEIROS</h2>
+            <p>Nossos pareceiros</p>
+            <div>
+                <img src = "img/logo1.jpg" width = "150px">
+            </div>
+            <div>
+                <img src = "img/logo2.jpeg" width = "150px">
+            </div>
          </section>
      
          <footer> 
